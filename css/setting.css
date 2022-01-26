@@ -1,0 +1,135 @@
+@media (max-width: 1010px){
+    .about__content{
+    margin: 100px 30px;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Bebas';
+    padding-left: 50px;
+    }
+  }
+  @media (max-width: 826px){
+    .row {
+        max-width: 1230px;
+        margin: -100px auto;
+        padding: 150px 0px;
+    }
+  }
+  
+  @media (max-width: 750px){
+    .about__inner{
+        display: block;
+    } 
+    .pho {
+        width: 250px;
+        height: 300px; 
+        margin: auto auto;
+    }
+    .about__content {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Bebas';
+    margin: 60px auto;
+    padding-left: 0px;
+    }
+    .about_text p{
+        text-align: center;
+    }
+  }
+  
+  @media (max-width: 600px){
+    .menu-list {
+        display: none;
+        position: absolute;
+        top: 87px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #000;
+        z-index: 5;
+    }
+    .menu-list a{
+        display: block;
+        padding: 10px 0;
+        border-bottom: 1px solid #000;
+        background-color: #000000;
+    }
+    .btn_menu {
+        display: block;
+    }
+    .header-title{
+        margin-top: 80px;
+        text-align: center;
+        font-size: 40px;
+        line-height: 50px;
+        font-family: 'Archi';
+    }
+    .header-title span{
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: 'Bebas';
+    }
+    .row {
+        max-width: 1230px;
+        margin: -100px auto;
+        padding: 30px 0px;
+    }
+    .about_title{
+        font-size: 50px;
+        font-weight: 700;
+        margin: 15px 0;
+        font-family: 'Archi';
+    }
+    .about__content {
+        width: 100%;
+        color: white;
+        text-align: center;
+        font-size: 13px;
+        line-height: 20px;
+        font-family: 'Bebas';
+        margin: 60px auto;
+        padding-left: 0px;
+    }
+    .pho {
+        background-image: url(../images/ava.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 150px;
+        height: 250px; 
+    }
+    .project_title {
+        padding-top: 10px;
+        text-align: center;
+        font-size: 50px;
+        line-height: 250px;
+        font-family: 'Archi';
+        color: black;
+    }
+  }
+  
+  @media (min-width: 600px){
+    .menu-list{
+        display: flex !important;
+    }
+  }
+  
+  @media (max-width: 320px){
+    .footer{
+        background-color: #000000;
+        color: #fff;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        font-size: 15px;
+    }
+  }
